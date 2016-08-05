@@ -1,0 +1,16 @@
+{
+  "name": "jd_react_redux_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for production React & Redux App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Boilerplate"
+  ],
+  "author": "Justin Davidson, twitter: @turtlenecktech_ email: turtlenecktech@gmail.com",
+  "license": "ISC"
+}
