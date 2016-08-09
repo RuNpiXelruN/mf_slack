@@ -9,11 +9,12 @@ import { Link } from 'react-router'
     return isAuthed === true
     ? <ul>
         <li><Link to='/' >Home</Link></li>
+        <li><Link to='dashboard'>Dashboard</Link></li>
         <li><Link to='logout' >Logout</Link></li>
       </ul>
     : <ul>
-        <li>Home</li>
-        <li>Login</li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='auth'>Login</Link></li>
       </ul>
   }
 
